@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Services</title>
+</head>
+<body>
+    <style>
+        .khung{
+            background-image: url(./image/2.jpg);
+            height: 840px;
+            background-repeat: no-repeat;
+            width: 1903px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+        }
+        .chu_header, h1{
+            font-family: 'Poppins';
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            padding-top: 30px;
+        }
+        h1{
+            font-size: 27px;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            letter-spacing: 6px;
+            font-weight: 800;
+        }
+        .nut{
+            height: 64px;
+            width: 374px;
+            background-color: #000000;
+            opacity: 59%;
+            border-radius: 59px;
+            top: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+        }
+        h3{
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: 100;
+            color: #fff;
+            opacity: 100%;
+            margin-top:24px;
+            margin-bottom: 18px;
+        }
+        .chu{
+            position: relative;
+            top: 150px;
+        }
+        h2{
+            font-family: 'Poppins';
+            font-size: 144px;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: -58px;
+            margin-bottom: 0px;
+        }
+        .nut1{
+            height: 70px;
+            width: 180px;
+            background-color: #f9f9f9;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            border-radius: 35px;
+            top: 675px;
+        }
+        h4{
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: bold;
+            color: #48924F;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 23px;
+        }
+        .khung1{
+            margin-top: 80px;
+        }
+        .chu1{
+            font-family: 'Poppins';
+            font-weight: 800;
+            font-size: 64px;
+            text-align: center;
+            color: #828282;
+        }
+        .group1{
+            height: 604px;
+            width: 1215px;
+            top: 50px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .mot, .hai, .ba{
+            height: 504px;
+            width: 385px;
+            background-color: #ffffff;
+            box-shadow: 0px 3px 3px 0px #9c9b9b;
+            border-radius: 30px;
+            opacity: 100%;
+            position: absolute;
+        }
+        .hai{
+            margin-left: 415px;
+        }
+        .ba{
+            margin-left: 830px;
+        }
+        .lua, .hoa, .xe{
+            height: 290px;
+            width: 385px;
+            border-radius: 30px 30px 0px 0px;
+            position: absolute;
+        }
+        .lua{
+            background-image: url(./image/3.png);
+        }
+        .hoa{
+            background-image: url(./image/4.png);
+        }
+        .xe{
+            background-image: url(./image/5.png);
+        }
+        .chu2{
+            position: absolute;
+            font-family: 'Poppins';
+            color: #0D4D14;
+            bottom: 20px;
+            left: 35px;
+        }
+        b{
+            font-size: 16px;
+            font-weight: 900;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+        .nut2{
+            height: 70px;
+            width: 180px;
+            background-color: #f9f9f9;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            border-radius: 35px;
+            box-shadow: 0px 5px 5px 0px #32AF6426;
+        }
+        .nut2 h4{
+            color: #6CB981;
+        }
+        .khung2{
+            margin-top: 150px;
+        }
+        .group2{
+            height: 732px;
+            width: 1903px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 50px;
+        }
+        .nen{
+            background-image: url(./image/6.jpg);
+            height: 732px;
+            background-repeat: no-repeat;
+            width: 1903px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 50px;
+        }
+        .do_mo{
+            background-color: #000000;
+            height: 732px;
+            width: 1903px;
+            position: absolute;
+            opacity: 65%;
+        }
+        .khung_chu{
+            height: 604px;
+            width: 1215px;
+            top: 150px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .doan1 p, .doan2 p, .doan3 p{
+            position: absolute;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            display: flex;
+        }
+        .doan2{
+            margin-left: 415px;
+        }
+        .doan3{
+            margin-left: 830px;
+        }
+        .nut3{
+            height: 70px;
+            width: 180px;
+            background-color: #f9f9f9;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            border-radius: 35px;
+            bottom: 20px;
+        }
+        .khung3{
+            margin-top: 200px;
+        }
+        .group3{
+            width: 1194px;
+            height: 506px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 50px;
+        }
+        .ô1, .ô2, .ô3, .ô4{
+            position: absolute;
+            height: 233px;
+            width: 577px;
+            background-color: #FFFFFF;
+            border: 1px solid;
+            border-color: #6CB981;
+            border-radius: 40px;
+        }
+        .ô2{
+            left: 617px;
+        }
+        .ô3{
+            top: 273px;
+        }
+        .ô4{
+            top: 273px;
+            left: 617px;
+        }
+        .van_ban{
+            position: absolute;
+            font-family: 'Poppins';
+            bottom: -10px;
+            left: 130px;
+        }
+        .van_ban b{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            color:#6CB981 ;
+        }
+        .van_ban h6 i{
+            color: #6CB981;
+            height: 18px;
+            width: 18px;
+        }
+        h6{
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .van_ban p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            color: #0D4C14;
+        }
+        .hinh{
+            background-image: url(./image/7.png);
+            height: 80px;
+            width: 80px;
+            border-radius: 100%;
+            background-size: contain;
+            top: 30px;
+            left: 30px;
+            position: absolute;
+        }
+        .khung4{
+            margin-top: 150px;
+        }
+        .group4{
+            height: 266px;
+            width: 788px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 50px;
+        }
+        .phai{
+            height: 266px;
+            width: 374px;
+            position: absolute;
+        }
+        .xanh1, .xanh2, .xanh3{
+            height: 56px;
+            width: 374px;
+            border-radius: 61px;
+            background-color: #9FDEA9;
+            position: absolute;
+        }
+        .xanh2{
+            top: 70px;
+        }
+        .xanh3{
+            top: 140px;
+        }
+        .trang{
+            position: absolute;
+            top: 210px;
+            height: 56px;
+            width: 168px;
+            border-radius: 61px;
+            background-color: #FFFFFF;
+            border: 3px solid;
+            border-color: #4DB96B;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .trai{
+            height: 132px;
+            width: 340px;
+            position: absolute;
+            left: 454px;
+        }
+        .email, .sdt, .dia_chi{
+            font-family: 'Poppins';
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17.43px;
+            position: absolute;
+        }
+        .email{
+            top: 20px;
+        }
+        .sdt{
+            top: 90px;
+        }
+        .dia_chi{
+            top: 160px;
+        }
+        .email i, .sdt i, .dia_chi i{
+            color:#4DB96B ;
+            width: 30px;
+            font-size: 20px;
+        }
+        footer{
+           background-color:#324B29 ;
+           height: 145px;
+           width: 1903px;
+           top: 150px;
+           position: relative;
+           left: 50%;
+           transform: translateX(-50%);
+        }
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+    <div class="khung">
+        <div class="chu_header">Round Rock</div>
+        <h1>Yard Maintenance</h1>
+        <div class="nut">
+            <h3>Lorem Ipsum is simply dummy</h3>
+        </div>
+        <div class="chu"><h2>Lorem ipsum<h2>Lorem</h2></h2></div>
+        <div class="nut1">
+            <h4>Help Me</h4>
+        </div>
+    </div>
+    <div class="khung1">
+        <div class="chu1">Services</div>
+        <div class="group1">
+            <div class="mot">
+                <div class="lua"></div>
+                <div class="chu2">
+                    <b>Lorem Ipsum</b>
+                    <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since the 1500s, when an <br>unknown printer took a galley of type and <br>scrambled</p>
+                </div>
+            </div>
+            <div class="hai">
+                <div class="hoa"></div>
+                <div class="chu2">
+                    <b>Lorem Ipsum</b>
+                    <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since the 1500s, when an <br>unknown printer took a galley of type and <br>scrambled</p>
+                </div>
+            </div>
+            <div class="ba">
+                <div class="xe"></div>
+                <div class="chu2">
+                    <b>Lorem Ipsum</b>
+                    <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since the 1500s, when an <br>unknown printer took a galley of type and <br>scrambled</p>
+                </div>
+            </div>
+        </div>
+        <div class="nut2">
+            <h4>Help Me</h4>
+        </div>
+    </div>
+    <div class="khung2">
+        <div class="chu1">About Us</div>
+        <div class="group2">
+            <div class="nen">
+                <div class="do_mo">
+                </div>
+            </div>
+            <div class="khung_chu">
+                <div class="doan1">
+                    <p>Lorem Ipsum is simply dummy text of <br>the printing and typesetting industry. <br>Lorem Ipsum has been the industry's <br>standard dummy text ever since the <br>1500s, when an unknown printer took a <br>galley of type and scrambled it to <br>make a type specimen book. It has <br>survived not only five centuries, but <br>also the leap into electronic <br>typesetting, remaining essentially <br>unchanged. It was popularised in the <br>1960s with the release of Letraset <br>sheets containing Lorem Ipsum <br>passages, and more recently with <br>desktop publishing software like Aldus <br>PageMaker including versions of Lorem <br>Ipsum.</p>
+                </div>
+                <div class="doan2">
+                    <p>Lorem Ipsum is simply dummy text of <br>the printing and typesetting industry. <br>Lorem Ipsum has been the industry's <br>standard dummy text ever since the <br>1500s, when an unknown printer took a <br>galley of type and scrambled it to <br>make a type specimen book. It has <br>survived not only five centuries, but <br>also the leap into electronic <br>typesetting, remaining essentially <br>unchanged. It was popularised in the <br>1960s with the release of Letraset <br>sheets containing Lorem Ipsum <br>passages, and more recently with <br>desktop publishing software like Aldus <br>PageMaker including versions of Lorem <br>Ipsum.</p>
+                </div>
+                <div class="doan3">
+                    <p>Lorem Ipsum is simply dummy text of <br>the printing and typesetting industry. <br>Lorem Ipsum has been the industry's <br>standard dummy text ever since the <br>1500s, when an unknown printer took a <br>galley of type and scrambled it to <br>make a type specimen book. It has <br>survived not only five centuries, but <br>also the leap into electronic <br>typesetting, remaining essentially <br>unchanged. It was popularised in the <br>1960s with the release of Letraset <br>sheets containing Lorem Ipsum <br>passages, and more recently with <br>desktop publishing software like Aldus <br>PageMaker including versions of Lorem <br>Ipsum.</p>
+                </div>
+            </div>
+            <div class="nut3">
+                <h4>Help Me</h4>
+            </div>
+        </div>
+    </div>
+    <div class="khung3">
+        <div class="chu1">Testymonials</div>
+        <div class="group3">
+            <div class="ô1">
+                <div class="van_ban">
+                    <b>Courtney Henry</b>
+                    <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem Ipsum has been the industry's <br>standard dummy text ever since the 1500s, when an <br>unknown printer took a galley of type and scrambled it to <br>make a type specimen book</p>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h6>
+                </div>
+                <div class="hinh"></div>
+            </div>
+            <div class="ô2">
+                <div class="van_ban">
+                    <b>Courtney Henry</b>
+                    <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem Ipsum has been the industry's <br>standard dummy text ever since the 1500s, when an <br>unknown printer took a galley of type and scrambled it to <br>make a type specimen book</p>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h6>
+                </div>
+                <div class="hinh"></div>
+            </div>
+            <div class="ô3">
+                <div class="van_ban">
+                    <b>Courtney Henry</b>
+                    <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem Ipsum has been the industry's <br>standard dummy text ever since the 1500s, when an <br>unknown printer took a galley of type and scrambled it to <br>make a type specimen book</p>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h6>
+                </div> 
+                <div class="hinh"></div>           
+            </div>
+            <div class="ô4">
+                <div class="van_ban">
+                    <b>Courtney Henry</b>
+                    <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem Ipsum has been the industry's <br>standard dummy text ever since the 1500s, when an <br>unknown printer took a galley of type and scrambled it to <br>make a type specimen book</p>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h6>
+                </div>
+                <div class="hinh"></div>
+            </div>
+        </div>
+    </div>
+    <div class="khung4">
+        <div class="chu1">Contact Us</div>
+        <div class="group4">
+            <div class="phai">
+                <div class="xanh1"></div>
+                <div class="xanh2"></div>
+                <div class="xanh3"></div>
+                <div class="trang"></div>
+            </div>
+            <div class="trai">
+                <div class="email"><i class="fa-solid fa-envelope"></i>test@gmail.com</div>
+                <div class="sdt"><i class="fa-solid fa-phone"></i>(303) 555-0105</div>
+                <div class="dia_chi"><i class="fa-solid fa-location-dot"></i>2715 Ash Dr. San Jose, South Dakota 83475</div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
